@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+    <link href="pingpong.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div class="flexcenter">
+            <img class="pic" src="https://cdn.pixabay.com/photo/2016/05/31/23/21/badminton-1428046_1280.jpg">
+        </div>
+        <div class="div">
+            <p style="font-weight: 800; margin: 8 0;">Badminton score keeper</p>
+        </div>
+        <div class="div">
+            <h2 id="due" class="block" style="margin: 1px 2px; text-align: center; font-size:50px;"></h2>
+            <h1 class="block" style="margin: 21px 0 5px;"><span id="s1">0 </span> to <span id="s2"> 0</span></h1>
+            <p class="block" style="margin: 0 0 10px 0px;">Use the buttons below to keep score</p>
+            <div class="block">
+                <label for="select" style="font-weight: 800; font-size: larger; margin-right: 20px;">Playing To</label>
+                <select name="select" id="point" style="border-radius: 8px; ">
+                    <option value="">select</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+
+            </div>
+            <div style="margin: 20px 0 20px 0; display: flex; flex-wrap: nowrap;">
+                <button class="btn" style="background-color: rgb(35, 149, 35);">+1 Player One</button>
+                <button class="btn" style="background-color: rgb(23, 114, 193);">+1 Player Two</button>
+                <button class="btn" style="background-color: rgb(232, 28, 28);">Reset</button>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="score.js"></script>
+</body>
+
+</html>

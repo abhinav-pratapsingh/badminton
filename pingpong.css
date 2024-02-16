@@ -1,0 +1,72 @@
+.flexcenter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height: fit-content;
+
+
+}
+
+.div {
+    padding: 4px 10px 4px 10px;
+    border-radius: 0px;
+    border-color: lightgray;
+    border-bottom-style: solid;
+
+
+}
+
+body {
+    margin: 0 20% 300px 20%;
+    box-shadow: 0 0 15px -2px #444444;
+
+}
+
+.pic {
+    max-width: 100%;
+    border-radius: 2px;
+
+    display: block;
+}
+
+.block {
+    display: block;
+}
+
+.btn {
+    color: white;
+    font-weight: 400;
+    width: 33.33333%;
+    height: 42px;
+    margin-right: 2px;
+    border-radius: 5px;
+    border-style: none;
+    opacity: 0.9;
+
+}
+
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn:active {
+    opacity: 1;
+}
+
+#due {
+    color: rgb(200, 0, 0);
+}
+
+@media(min-width:400px) {
+    body {
+        margin: 0 10% 300px 10%;
+    }
+}
+
+@media(min-width:850px) {
+    body {
+        margin: 0 32% 300px 30%;
+
+    }
+}
